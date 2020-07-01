@@ -21,3 +21,5 @@ Esto crea una clase ES6 `Kitten` que extiende la clase `React.Component`. Por lo
 `MyComponent` se define en el editor de código utilizando la sintaxis de clase. Termine de escribir el método `render` para que devuelva un elemento `div` que contenga un `h1` con el texto `Hello React!`.
 
 ---
+
+[Ir al próximo desafío]()
