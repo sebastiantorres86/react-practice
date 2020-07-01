@@ -1,4 +1,4 @@
-# React: usar Reaccionar para representar componentes anidados
+# React: usar React para representar componentes anidados
 
 El último desafío mostró una forma simple de componer dos componentes, pero hay muchas formas diferentes de componer componentes con React.
 
