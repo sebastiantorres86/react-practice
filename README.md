@@ -4,4 +4,4 @@
 
 React combina HTML con la funcionalidad de JavaScript para crear su propio lenguaje de marcado, JSX. Esta sección le presentará todos estos conceptos y cómo implementarlos para usarlos en sus propios proyectos.
 
-[Ir a la primera lección]()
+[Ir a la primera lección](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/01/my-app)

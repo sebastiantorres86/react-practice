@@ -15,4 +15,4 @@ Vale la pena señalar que, bajo el capó, los desafíos están llamando a `React
 **Instrucciones**: El código actual usa JSX para asignar un elemento `div` a la constante `JSX`. Reemplace el `div` con un elemento `h1` y agregue el texto `¡Hola JSX!` dentro de eso.
 
 ---
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/02/my-app)

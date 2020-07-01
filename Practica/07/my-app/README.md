@@ -23,4 +23,4 @@ El editor de código tiene una función llamada `MyComponent`. Complete esta fun
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/08/my-app)

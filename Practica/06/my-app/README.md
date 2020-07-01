@@ -16,4 +16,4 @@ Solucione los errores en el editor de código para que sea JSX válido y se tran
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/07/my-app)

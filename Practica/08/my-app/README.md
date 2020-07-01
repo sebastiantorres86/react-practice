@@ -22,4 +22,4 @@ Esto crea una clase ES6 `Kitten` que extiende la clase `React.Component`. Por lo
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/09/my-app)

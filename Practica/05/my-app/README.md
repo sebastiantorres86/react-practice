@@ -13,4 +13,4 @@ De hecho, la convención de nomenclatura para todos los atributos HTML y referen
 Aplique una clase de `myDiv` al `div` proporcionado en el código JSX.
 
 ---
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/06/my-app)

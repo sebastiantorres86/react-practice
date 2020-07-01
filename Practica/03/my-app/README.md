@@ -10,4 +10,4 @@ El editor de código tiene un elemento JSX similar al que creó en el último de
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/04/my-app)
