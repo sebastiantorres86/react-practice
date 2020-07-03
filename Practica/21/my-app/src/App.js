@@ -1,25 +1,21 @@
 import React from "react";
 import "./index.css";
 
-const Items = (props) => {
-  return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>;
-};
-
-// change code below this line
-Items.propTypes = { quantity: PropTypes.number.isRequired };
-// change code above this line
-
-Items.defaultProps = {
-  quantity: 0,
-};
-
-class ShoppingCart extends React.Component {
+class StatefulComponent extends React.Component {
   constructor(props) {
     super(props);
+    // initialize state here
+    this.state = {
+      name: "Sebastian",
+    };
   }
   render() {
-    return <Items />;
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+      </div>
+    );
   }
 }
 
-export default ShoppingCart;
+export default StatefulComponent;

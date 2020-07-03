@@ -1,18 +1,20 @@
-# React: usa PropTypes para definir los props que esperas
+# React: crear un componente con estado
 
-React proporciona funciones útiles de tipo-verificación para verificar que los componentes reciban props del tipo correcto. Por ejemplo, su aplicación realiza una llamada a la API para recuperar los datos que espera que estén en un array, que luego se pasa a un componente como prop. Puede configurar `propTypes` en su componente para requerir que los datos sean de tipo `array`. Esto arrojará una advertencia útil cuando los datos sean de cualquier otro tipo.
+Uno de los temas más importantes en React es el `state`. El state consta de los datos que su aplicación necesita conocer, que pueden cambiar con el tiempo. Desea que sus aplicaciones respondan a los cambios de state y presenten una IU actualizada cuando sea necesario. React ofrece una buena solución para la gestión del state de las aplicaciones web modernas.
 
-Se considera una práctica recomendada establecer `propTypes` cuando conoce el tipo de prop con anticipación. Puede definir una propiedad `propTypes` para un componente de la misma manera que definió `defaultProps`. Hacer esto verificará que los accesorios de una clave dada estén presentes con un tipo dado. Aquí hay un ejemplo para requerir el tipo `function` para un prop llamado `handleClick`:
+Puede crear state en un componente React declarando una propiedad `state` en la clase de componente en su `constructor`. Esto inicializa el componente con `state` cuando se crea. La propiedad `state` debe establecerse en un `object` JavaScript. Declarandola se ve así:
 
-`MyComponent.propTypes = {handleClick: PropTypes.func.isRequired}`
+```jsx
+this.state = {
+   // describe tu estado aquí
+}
+```
 
-En el ejemplo anterior, la parte `PropTypes.func` comprueba que `handleClick` es una función. Agregar `isRequired` le dice a React que `handleClick` es una propiedad requerida para ese componente. Verá una advertencia si no se proporciona ese accesorio. Observe también que `func` representa `function`. Entre los siete tipos primitivos de JavaScript, `function` y `boolean` (escrito como `bool`) son los únicos dos que usan ortografía inusual. Además de los tipos primitivos, hay otros tipos disponibles. Por ejemplo, puede verificar que un prop sea un elemento React. Consulte la [documentación](https://reactjs.org/docs/jsx-in-depth.html#specifying-the-react-element-type) para todas las opciones.
-
-**Nota**: A partir de React v15.5.0, `PropTypes` es importado independientemente de React, de esta manera: `import PropTypes from 'prop-types';`
+Tiene acceso al objeto `state` durante toda la vida de su componente. Puede actualizarlo, representarlo en su interfaz de usuario y pasarlo como prop a los componentes secundarios. El objeto `state` puede ser tan complejo o tan simple como lo necesite. Tenga en cuenta que debe crear un componente de clase extendiendo `React.Component` para crear un `state` como este.
 
 ---
 
-Defina `propTypes` para que el componente `Items` requiera `quantity` como prop y verifique que sea de tipo `number`.
+Hay un componente en el editor de código que intenta representar una propiedad `name` desde su `state`. Sin embargo, no hay un `state` definido. Inicialice el componente con `state` en el `constructor` y asigne su nombre a una propiedad `name`.
 
 ---
 

@@ -1,18 +1,18 @@
-# React: usa PropTypes para definir los props que esperas
+# React: vincular 'this' a un método de clase
 
-React proporciona funciones útiles de tipo-verificación para verificar que los componentes reciban props del tipo correcto. Por ejemplo, su aplicación realiza una llamada a la API para recuperar los datos que espera que estén en un array, que luego se pasa a un componente como prop. Puede configurar `propTypes` en su componente para requerir que los datos sean de tipo `array`. Esto arrojará una advertencia útil cuando los datos sean de cualquier otro tipo.
+Además de establecer y actualizar el `state`, también puede definir métodos para su clase de componente. Un método de clase generalmente necesita usar la palabra clave `this` para poder acceder a las propiedades de la clase (como `state` y `props`) dentro del alcance del método. Hay algunas formas de permitir que sus métodos de clase accedan a `this`.
 
-Se considera una práctica recomendada establecer `propTypes` cuando conoce el tipo de prop con anticipación. Puede definir una propiedad `propTypes` para un componente de la misma manera que definió `defaultProps`. Hacer esto verificará que los accesorios de una clave dada estén presentes con un tipo dado. Aquí hay un ejemplo para requerir el tipo `function` para un prop llamado `handleClick`:
+Una forma común es vincular `this` explícitamente en el constructor para que `this` se vincule a los métodos de clase cuando se inicializa el componente. Es posible que haya notado que el último desafío utilizó `this.handleClick = this.handleClick.bind(this)` para su método `handleClick` en el constructor. Luego, cuando llama a una función como `this.setState()` dentro de su método de clase, `this` se refiere a la clase y no estará `undefined`.
 
-`MyComponent.propTypes = {handleClick: PropTypes.func.isRequired}`
-
-En el ejemplo anterior, la parte `PropTypes.func` comprueba que `handleClick` es una función. Agregar `isRequired` le dice a React que `handleClick` es una propiedad requerida para ese componente. Verá una advertencia si no se proporciona ese accesorio. Observe también que `func` representa `function`. Entre los siete tipos primitivos de JavaScript, `function` y `boolean` (escrito como `bool`) son los únicos dos que usan ortografía inusual. Además de los tipos primitivos, hay otros tipos disponibles. Por ejemplo, puede verificar que un prop sea un elemento React. Consulte la [documentación](https://reactjs.org/docs/jsx-in-depth.html#specifying-the-react-element-type) para todas las opciones.
-
-**Nota**: A partir de React v15.5.0, `PropTypes` es importado independientemente de React, de esta manera: `import PropTypes from 'prop-types';`
+**Nota**: La palabra clave `this` es uno de los aspectos más confusos de JavaScript, pero desempeña un papel importante en React. Aunque su comportamiento aquí es totalmente normal, estas lecciones no son el lugar para una revisión profunda de `this`, así que por favor, consulte otras lecciones si lo anterior es confuso.
 
 ---
 
-Defina `propTypes` para que el componente `Items` requiera `quantity` como prop y verifique que sea de tipo `number`.
+El editor de código tiene un componente con un `state` que realiza un seguimiento del texto. También tiene un método que le permite configurar el texto en `"You clicked!"`. Sin embargo, el método no funciona porque está usando la palabra clave `this` que no está definida. Arregle esto vinculando explícitamente `this` al método `handleClick()` en el constructor del componente.
+
+A continuación, agregue un controlador de clic al elemento `button` en el método render. Debería activar el método `handleClick()` cuando el botón recibe un evento click. Recuerde que el método que pasa al controlador `onClick` necesita llaves porque debe interpretarse directamente como JavaScript.
+
+Una vez que complete los pasos anteriores, debería poder hacer clic en el botón y ver `You clicked!`
 
 ---
 

@@ -1,25 +1,31 @@
 import React from "react";
 import "./index.css";
 
-const Items = (props) => {
-  return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>;
-};
-
-// change code below this line
-Items.propTypes = { quantity: PropTypes.number.isRequired };
-// change code above this line
-
-Items.defaultProps = {
-  quantity: 0,
-};
-
-class ShoppingCart extends React.Component {
+class MyComponent extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      text: "Hello",
+    };
+    // change code below this line
+    this.handleClick = this.handleClick.bind(this);
+    // change code above this line
+  }
+  handleClick() {
+    this.setState({
+      text: "You clicked!",
+    });
   }
   render() {
-    return <Items />;
+    return (
+      <div>
+        {/* change code below this line */}
+        <button onClick={this.handleClick}>Click Me</button>
+        {/* change code above this line */}
+        <h1>{this.state.text}</h1>
+      </div>
+    );
   }
 }
 
-export default ShoppingCart;
+export default MyComponent;

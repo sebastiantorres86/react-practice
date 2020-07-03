@@ -1,18 +1,20 @@
-# React: usa PropTypes para definir los props que esperas
+# React: Establecer state con this.setState
 
-React proporciona funciones útiles de tipo-verificación para verificar que los componentes reciban props del tipo correcto. Por ejemplo, su aplicación realiza una llamada a la API para recuperar los datos que espera que estén en un array, que luego se pasa a un componente como prop. Puede configurar `propTypes` en su componente para requerir que los datos sean de tipo `array`. Esto arrojará una advertencia útil cuando los datos sean de cualquier otro tipo.
+Los desafíos anteriores cubrían el componente `state` y cómo inicializar el state en el `constructor`. También hay una manera de cambiar el `state` del componente. React proporciona un método para actualizar el `state` del componente llamado `setState`. Llame al método `setState` dentro de su componente de clase de la siguiente manera: `this.setState()`, pasando un objeto con pares clave-valor. Las claves son sus propiedades de estado y los valores son los datos de state actualizados. Por ejemplo, si estuviéramos almacenando un `username` en state y quisiéramos actualizarlo, se vería así:
 
-Se considera una práctica recomendada establecer `propTypes` cuando conoce el tipo de prop con anticipación. Puede definir una propiedad `propTypes` para un componente de la misma manera que definió `defaultProps`. Hacer esto verificará que los accesorios de una clave dada estén presentes con un tipo dado. Aquí hay un ejemplo para requerir el tipo `function` para un prop llamado `handleClick`:
+```jsx
+this.setState({
+  username: "Lewis",
+});
+```
 
-`MyComponent.propTypes = {handleClick: PropTypes.func.isRequired}`
-
-En el ejemplo anterior, la parte `PropTypes.func` comprueba que `handleClick` es una función. Agregar `isRequired` le dice a React que `handleClick` es una propiedad requerida para ese componente. Verá una advertencia si no se proporciona ese accesorio. Observe también que `func` representa `function`. Entre los siete tipos primitivos de JavaScript, `function` y `boolean` (escrito como `bool`) son los únicos dos que usan ortografía inusual. Además de los tipos primitivos, hay otros tipos disponibles. Por ejemplo, puede verificar que un prop sea un elemento React. Consulte la [documentación](https://reactjs.org/docs/jsx-in-depth.html#specifying-the-react-element-type) para todas las opciones.
-
-**Nota**: A partir de React v15.5.0, `PropTypes` es importado independientemente de React, de esta manera: `import PropTypes from 'prop-types';`
+React espera que nunca modifique el `state` directamente, en su lugar, use siempre `this.setState()` cuando ocurran cambios de state. Además, debe tener en cuenta que React puede agrupar varias actualizaciones de state para mejorar el rendimiento. Lo que esto significa es que las actualizaciones de state a través del método `setState` pueden ser asíncronas. Hay una sintaxis alternativa para el método `setState` que proporciona una solución a este problema. Esto rara vez se necesita, ¡pero es bueno tenerlo en cuenta! Consulte la [documentación de React](https://facebook.github.io/react/docs/state-and-lifecycle.html) para obtener más detalles.
 
 ---
 
-Defina `propTypes` para que el componente `Items` requiera `quantity` como prop y verifique que sea de tipo `number`.
+Hay un elemento `button` en el editor de código que tiene un controlador `onClick()`. Este controlador se activa cuando `button` recibe un evento de clic en el navegador y ejecuta el método `handleClick` definido en `MyComponent`. Dentro del método `handleClick`, actualice el `state` del componente usando `this.setState()`. Establezca la propiedad `name` en `state` para que sea igual a la cadena `React Rocks!`.
+
+Haga clic en el botón y vea la actualización del estado renderizado. No se preocupe si no comprende completamente cómo funciona el código del controlador de clics en este momento. Está cubierto en los próximos desafíos.
 
 ---
 
