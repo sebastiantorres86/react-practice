@@ -18,4 +18,4 @@ Hay un componente en el editor de código que intenta representar una propiedad 
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/22/my-app)

@@ -14,4 +14,4 @@ Finalmente, cree una etiqueta `h1` después del `form` que represente el valor d
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/30/my-app)

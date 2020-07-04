@@ -10,4 +10,4 @@ Procese este componente en el DOM usando `ReactDOM.render()`. Hay un `div` con `
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/14/my-app)

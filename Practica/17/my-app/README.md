@@ -10,4 +10,4 @@ El componente `ShoppingCart` ahora representa un componente hijo `items`. Este c
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/18/my-app)

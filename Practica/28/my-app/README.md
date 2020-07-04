@@ -16,4 +16,4 @@ Por último, pero no menos importante, no olvides agregar los enlaces necesarios
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/29/my-app)

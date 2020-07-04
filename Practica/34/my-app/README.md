@@ -12,4 +12,4 @@ Luego, en `componentWillUnmount()`, elimine este mismo detector de eventos. Pued
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/35/my-app)

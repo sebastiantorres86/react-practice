@@ -16,4 +16,4 @@ Una vez que complete los pasos anteriores, debería poder hacer clic en el botó
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/26/my-app)

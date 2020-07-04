@@ -16,4 +16,4 @@ En el editor de código, `MyComponent` ya tiene state. Defina una etiqueta `h1` 
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/23/my-app)

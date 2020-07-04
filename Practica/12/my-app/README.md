@@ -11,3 +11,5 @@ Los componentes de react se pasan a `ReactDOM.render()` de forma un poco diferen
 Los componentes de `Fruits` y `Vegetables` están definidos para usted detrás de escena. Renderice ambos componentes como elementos secundarios del componente `TypesOfFood`, luego renderice `TypesOfFood` al DOM. Hay un `div` con `id='challenge-node'` disponible para su uso.
 
 ---
+
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/13/my-app)

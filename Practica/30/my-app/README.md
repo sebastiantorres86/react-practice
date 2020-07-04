@@ -12,4 +12,4 @@ El componente `MyApp` tiene state y representa un componente `Navbar` como hijo.
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/31/my-app)

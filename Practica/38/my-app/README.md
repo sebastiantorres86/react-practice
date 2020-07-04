@@ -10,4 +10,4 @@ En el código provisto, el método `render` tiene una matriz que contiene 20 fra
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/39/my-app)

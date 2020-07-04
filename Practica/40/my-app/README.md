@@ -12,4 +12,4 @@ Resuelva el ejemplo anterior nuevamente, para que `h1` solo se muestre si `displ
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/41/my-app)

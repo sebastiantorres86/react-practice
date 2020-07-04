@@ -10,4 +10,4 @@ Renderice una instancia del componente `ReturnTempPassword` en el componente pri
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/20/my-app)

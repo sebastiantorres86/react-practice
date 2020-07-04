@@ -14,4 +14,4 @@ Dentro del `constructor`, cree un objeto `this.state` y defina dos estados: `use
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/45/my-app)

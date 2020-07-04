@@ -10,4 +10,4 @@ Si tiene un gran conjunto de estilos, puede asignar un `object` de estilo a una 
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/38/my-app)

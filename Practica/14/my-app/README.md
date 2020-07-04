@@ -22,4 +22,4 @@ Hay componentes `Calendar` y `CurrentDate` en el editor de código. Al represent
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/15/my-app)

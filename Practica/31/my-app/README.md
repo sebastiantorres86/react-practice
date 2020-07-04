@@ -10,4 +10,4 @@ A continuación, agregue `RenderInput` al método de renderizado en `MyApp`, lue
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/32/my-app)

@@ -10,4 +10,4 @@ En el editor de código, el `state` de `MyComponent` se inicializa con una matri
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/47/my-app)

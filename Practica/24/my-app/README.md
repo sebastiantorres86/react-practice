@@ -18,4 +18,4 @@ Haga clic en el botón y vea la actualización del estado renderizado. No se pre
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/25/my-app)

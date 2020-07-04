@@ -14,4 +14,4 @@ Una vez que el componente muestra información en la página, los usuarios deben
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/42/my-app)

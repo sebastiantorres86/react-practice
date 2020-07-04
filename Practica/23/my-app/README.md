@@ -10,4 +10,4 @@ Luego, en la declaración return, renderice este valor en una etiqueta `h1` usan
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/24/my-app)

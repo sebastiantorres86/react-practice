@@ -8,4 +8,4 @@ El editor de código muestra un componente `ShoppingCart`. Defina props predeter
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/17/my-app)

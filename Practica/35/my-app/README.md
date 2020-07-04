@@ -10,4 +10,4 @@ El método `shouldComponentUpdate()` se agrega en un componente llamado `OnlyEve
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/36/my-app)

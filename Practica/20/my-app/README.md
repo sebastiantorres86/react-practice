@@ -12,4 +12,4 @@ El editor de código tiene un componente `CampSite` que representa un componente
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/21/my-app)

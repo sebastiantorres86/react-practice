@@ -10,4 +10,4 @@ El método `componentWillMount()` se llama antes que el método `render()` cuand
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/33/my-app)

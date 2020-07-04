@@ -22,4 +22,4 @@ Tenga en cuenta que, opcionalmente, puede establecer el tamaño de fuente como u
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/37/my-app)

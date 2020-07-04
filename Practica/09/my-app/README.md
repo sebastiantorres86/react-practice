@@ -24,4 +24,4 @@ En el editor de código, hay un componente funcional simple llamado `ChildCompon
 
 ---
 
-[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/10/my-app)
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/11/my-app)

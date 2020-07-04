@@ -10,4 +10,4 @@ MyComponent contiene un `boolean` en su state que rastrea si desea mostrar algú
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/40/my-app)

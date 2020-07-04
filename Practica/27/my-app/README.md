@@ -10,4 +10,4 @@ El componente `Counter` realiza un seguimiento de un valor de `count` en `state`
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/28/my-app)

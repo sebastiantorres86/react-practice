@@ -12,4 +12,4 @@ Normalmente, desea que la clave sea algo que identifique de forma exclusiva el e
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/46/my-app)

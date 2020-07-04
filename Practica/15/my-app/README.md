@@ -16,4 +16,4 @@ Hay componentes `List` y `ToDo` en el editor de código. Al renderizar cada `Lis
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/16/my-app)
