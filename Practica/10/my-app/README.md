@@ -10,4 +10,4 @@ Hay dos componentes funcionales definidos en el editor de código, llamados `Typ
 
 ---
 
-[Ir al próximo desafío]()
+[Ir al próximo desafío](https://github.com/sebastiantorres86/react-practice/tree/master/Practica/11/my-app)
