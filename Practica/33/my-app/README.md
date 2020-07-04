@@ -1,12 +1,12 @@
-# React: Renderizar state en la interfaz de usuario de otra manera
+# React: utilizar el método del ciclo de vida componenteDidMount
 
-Hay otra forma de acceder al `state` en un componente. En el método `render()`, antes de la declaración `return`, puede escribir JavaScript directamente. Por ejemplo, podría declarar funciones, acceder a datos desde `state` o `props`, realizar cálculos sobre estos datos, etc. Luego, puede asignar cualquier dato a las variables, a las que tiene acceso en la declaración `return`.
+La mayoría de los desarrolladores web, en algún momento, necesitan llamar a un endpoint API para recuperar datos. Si está trabajando con React, es importante saber dónde realizar esta acción.
+
+La mejor práctica con React es realizar llamadas API o cualquier llamada a su servidor en el método de ciclo de vida `componenteDidMount()`. Este método se llama después de que un componente se monte en el DOM. Cualquier llamada a `setState()` aquí activará una nueva representación de su componente. Cuando llama a una API en este método, y establece su estado con los datos que devuelve la API, se activará automáticamente una actualización una vez que reciba los datos.
 
 ---
 
-En el método render de `MyComponent`, defina un `const` llamado `name` y configúrelo igual al valor del nombre en el `state` del componente. Debido a que puede escribir JavaScript directamente en esta parte del código, no tiene que encerrar esta referencia entre llaves.
-
-Luego, en la declaración return, renderice este valor en una etiqueta `h1` usando la variable `name`. Recuerde, debe usar la sintaxis JSX (llaves para JavaScript) en la declaración return.
+Hay una llamada simulada de API en `componentDidMount()`. Establece el estado después de 2.5 segundos para simular llamar a un servidor para recuperar datos. Este ejemplo solicita el total de usuarios activos actuales para un sitio. En el método de renderizado, renderice el valor de `activeUsers` en el `h1`. Mire lo que sucede en la vista previa y siéntase libre de cambiar el tiempo de espera para ver los diferentes efectos.
 
 ---
 

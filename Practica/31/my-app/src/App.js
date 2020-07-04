@@ -17,13 +17,11 @@ class MyApp extends React.Component {
   render() {
     return (
       <div>
-        {/* change code below this line */}
         <GetInput
           input={this.state.inputValue}
           handleChange={this.handleChange}
         />
         <RenderInput input={this.state.inputValue} />
-        {/* change code above this line */}
       </div>
     );
   }
@@ -57,4 +55,4 @@ class RenderInput extends React.Component {
   }
 }
 
-export default MyComponent;
+export default MyApp;

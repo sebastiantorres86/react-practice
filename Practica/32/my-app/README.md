@@ -1,12 +1,12 @@
-# React: Renderizar state en la interfaz de usuario de otra manera
+# React: use el método de ciclo de vida componentWillMount
 
-Hay otra forma de acceder al `state` en un componente. En el método `render()`, antes de la declaración `return`, puede escribir JavaScript directamente. Por ejemplo, podría declarar funciones, acceder a datos desde `state` o `props`, realizar cálculos sobre estos datos, etc. Luego, puede asignar cualquier dato a las variables, a las que tiene acceso en la declaración `return`.
+Los componentes de React tienen varios métodos especiales que brindan oportunidades para realizar acciones en puntos específicos del ciclo de vida de un componente. Estos se denominan métodos de ciclo de vida, o hooks de ciclo de vida, y le permiten capturar componentes en ciertos momentos. Esto puede ser antes de que se procesen, antes de que se actualicen, antes de recibir props, antes de desmontar, etc. Aquí hay una lista de algunos de los principales métodos de ciclo de vida: `componentWillMount()` `componentDidMount()` `shouldComponentUpdate()` `componentDidUpdate()` `componentWillUnmount()` Las siguientes lecciones cubrirán algunos de los casos de uso básicos para estos métodos de ciclo de vida.
+
+**Nota**: El método del ciclo de vida del `componentWillMount` quedará obsoleto en una versión futura de 16.X y se eliminará en la versión 17. ([Fuente](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html))
 
 ---
 
-En el método render de `MyComponent`, defina un `const` llamado `name` y configúrelo igual al valor del nombre en el `state` del componente. Debido a que puede escribir JavaScript directamente en esta parte del código, no tiene que encerrar esta referencia entre llaves.
-
-Luego, en la declaración return, renderice este valor en una etiqueta `h1` usando la variable `name`. Recuerde, debe usar la sintaxis JSX (llaves para JavaScript) en la declaración return.
+El método `componentWillMount()` se llama antes que el método `render()` cuando se monta un componente en el DOM. Registre algo en la consola dentro de `componentWillMount()`; es posible que desee tener la consola de su navegador abierta para ver el resultado.
 
 ---
 
