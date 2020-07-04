@@ -9,5 +9,3 @@ Hay dos razones clave por las que la representación en el servidor se puede usa
 El método `renderToString()` se proporciona en `ReactDOMServer`, que está disponible aquí como un objeto global. El método toma un argumento que es un elemento React. Use esto para representar la `App` en una cadena.
 
 ---
-
-[Ir al próximo desafío]()
